@@ -87,103 +87,103 @@ img{
     align-items: center;
 }
 
-  .producer_right h2 , p{
+.producer_right h2 , p{
     color: #fff;
   }
 
-  .producer_right h2{
+.producer_right h2{
     font-size: 40px;
     font-weight: 800;
     color: #e25822;
     margin-bottom: 35px;
   }
 
-  .producer_right p{
+.producer_right p{
     font-size: 20px;
     font-weight: 400;
     line-height: 25px;
   }
 
-  .cast_div img{
+.cast_div img{
     width: 100%;
   }
   
-  .main_cast p{
+.main_cast p{
     text-align: center;
     font-size: 40px;
   }
   
-  .main_cast h5{
+.main_cast h5{
       text-align: center;
       font-size: 40px;
       font-weight: 600;
   }
   
-  .cast_div p{
+.cast_div p{
     font-size: 25px;
     text-align: center;
     font-weight: 600;
   }
   
-  .cast_crew_div{
+.cast_crew_div{
     height: 100vh;
     overflow: hidden;
   }
 
-  .story_main{
+.story_main{
     margin-top: 100px;
     height: 100vh;
   }
 
-  .social_links{
+.social_links{
       display: flex;
       justify-content: center;
       margin-top: 20px;
   }
   
-  .social_links svg{
+.social_links svg{
       font-size: 50px;
       margin-right: 25px;
       cursor: pointer;
       color: #fff;
   }
   
-  .footer{
+.footer{
       background-color: black;
       color: #fff;
       padding: 20px 0;
   }
   
-  footer p{
+footer p{
   text-align: center;
   font-size: 18px;
   }
   
   
-  .producer_right{
+.producer_right{
     align-items: center;
       display: flex;
       justify-content: center;
       flex-direction: column;
   }
 
-  .links_col{
+.links_col{
     padding: 30px;
   }
 
-  .links_col h3{
+.links_col h3{
     color: #e25822;
     margin-bottom: 20px;
   }
 
-  li{
+li{
     list-style-type: none;
     margin-bottom: 20px;
     margin-left: 10px;
     cursor: pointer;
   }
 
-  .fb{
+.fb{
     width: 40px;
     height: 40px;
     background-color: #fff;
@@ -192,18 +192,18 @@ img{
     padding-top: 7px;
   }
 
-  .fb a{
+.fb a{
     color: #e25822;
   }
 
-  .button.navbar-toggler .collapsed {
+.button.navbar-toggler .collapsed {
     background-color: #e25822 !important;
   }
 
 
-  @media (max-width: 678px) {
+@media (max-width: 678px) {
 
-    button.navbar-toggler.collapsed {
+button.navbar-toggler.collapsed {
       background-color: #e25822;
       margin-right: 15px;
   }
@@ -232,6 +232,7 @@ img{
 
 .story_main{
 margin-top: 30px;
+height: 30vh;
 
 }
   

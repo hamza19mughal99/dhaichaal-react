@@ -150,19 +150,19 @@ const Home = () => {
         },
         {
             img: cast3,
-            name: 'AYESHA OMER'
+            name: 'AYESHA OMAR'
         },
         {
-            img: cast4,
-            name: 'HUMAYUH ASHRAF'
+            img: cast6,
+            name: 'SALEEM MERAAJ'
         },
         {
             img: cast5,
             name: 'ADNAN SHAH TIPU'
         },
         {
-            img: cast6,
-            name: 'SALEEM MERAAJ'
+            img: cast4,
+            name: 'HUMAYUH ASHRAF'
         },
         {
             img: cast7,
@@ -179,10 +179,6 @@ const Home = () => {
         {
             img: dummy,
             name: 'PAKIZA KHAN'
-        },
-        {
-            img: dummy,
-            name: 'JAMAL GILANI'
         },
         {
             img: dummy,
@@ -206,7 +202,6 @@ const Home = () => {
         },
 
     ]
-
 
     return (
         <>
@@ -327,6 +322,41 @@ const Home = () => {
                         </div>
                         <div className='cast_div'>
                             <img src={dummy} alt="producer" />
+                            <p>ASSOCIATE DIRECTOR</p>
+                            <p>SAQIB ZAFAR SIDDIQUI</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>ASSISTANT PRODUCER</p>
+                            <p>FAJJAR MINHAS</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>D.O.P</p>
+                            <p>IMRAN LEE</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>COSTUME DESIGNER</p>
+                            <p>TAYYAB BOMBAL</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>COSTUME DESIGNER</p>
+                            <p>KASHIF KHAN</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>ASSOCIATE DIRECTOR</p>
+                            <p>SAQIB ZAFAR SIDDIQUI</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>EDIT</p>
+                            <p>ISSAC SOLEMON</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
                             <p>MARKUP ARTIST</p>
                             <p>MAJID HUSSAIN</p>
                         </div>
@@ -334,6 +364,21 @@ const Home = () => {
                             <img src={dummy} alt="producer" />
                             <p>ART DIRECTOR</p>
                             <p>JAMAL GILANI</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>MUSIC</p>
+                            <p>NABEEL UR REHMAN LUTFI</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>PRODUCTION HEAD</p>
+                            <p>ABID AZEEM</p>
+                        </div>
+                        <div className='cast_div'>
+                            <img src={dummy} alt="producer" />
+                            <p>PRODUCTION HEAD</p>
+                            <p>AMIR MUGHAL</p>
                         </div>
                     </Slider>
                 </div>
@@ -343,11 +388,11 @@ const Home = () => {
 
                     <div className='container' data-aos="zoom-out-down"  data-aos-duration="1000">
                         <div className='row justify-content-center'>
-                            <div className='col-md-4 mb-3'>
+                            <div className='col-md-4 col-4 mb-3'>
                                 <img src={media1} alt='1' />
                             </div>
 
-                            <div className='col-md-4 mb-3'>
+                            <div className='col-md-4 col-4 mb-3'>
                                 <img src={media2} alt='2' />
                             </div>
                         </div>
