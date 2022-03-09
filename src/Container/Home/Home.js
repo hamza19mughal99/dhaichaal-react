@@ -10,6 +10,7 @@ import 'aos/dist/aos.css';
 // --------------------------images-----------------------
 import mainLogo from "../../images/main_logo.png";
 import Producer from "../../images/producer.jpg";
+import AsstProducer from "../../images/asst_prod-modified.png";
 import Director from "../../images/direc.jpg";
 import Writer from "../../images/writ.jpg"
 
@@ -211,7 +212,7 @@ const Home = () => {
             <div className='second_main' ref={getStarted}>
                 <Navbar expand="lg" className="Navbar-header">
                     <Container>
-                        <NavLink to="/"><img data-aos="fade-right"  data-aos-duration="1000" src={mainLogo} /></NavLink>
+                        <NavLink to="/"><img data-aos="fade-right" alt='main' data-aos-duration="1000" src={mainLogo} /></NavLink>
                         <Navbar.Toggle aria-controls="basic-navbar-nav" />
                         <Navbar.Collapse id="basic-navbar-nav">
                             <Nav className="ml-auto">
@@ -229,7 +230,7 @@ const Home = () => {
 
                 <div className='trailer_section' ref={trailerSection}>
                     <h5 className='heading'>TRAI<span>LER</span></h5>
-                    <iframe style={{ width: '100%', height: "550px" }} src="https://www.youtube.com/embed/1yOmiawrCKU">
+                    <iframe title='trailer' style={{ width: '100%', height: "550px" }} src="https://www.youtube.com/embed/1yOmiawrCKU">
                     </iframe>
                 </div>
 
@@ -326,7 +327,7 @@ const Home = () => {
                             <p>SAQIB ZAFAR SIDDIQUI</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={AsstProducer} alt="producer" />
                             <p>ASSISTANT PRODUCER</p>
                             <p>FAJJAR MINHAS</p>
                         </div>
