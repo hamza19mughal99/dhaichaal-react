@@ -23,8 +23,24 @@ import cast5 from "../../images/adnan.png"
 import cast6 from "../../images/saleem.png"
 import cast7 from "../../images/rashidNaz.png"
 import cast8 from "../../images/taqi.png"
+import faraz from "../../images/farraz_marri.png";
+import anya from "../../images/anya.png";
+import areej from "../../images/areej.png";
+import mehboobSultan from "../../images/mehboob_sultan.png";
+import irfanMotiwala from "../../images/irfan_motiwala.png";
 import dummy from "../../images/dummy.png";
-import crew1 from "../../images/owais.png";
+import crew1 from "../../images/owais_baig.png";
+import saqib from "../../images/saqib_zafer.png";
+import imran_lee from "../../images/imran_lee.png";
+import kashif from "../../images/kashif.png";
+import saqib_zafer from "../../images/saqib_zafer.png";
+import issac from "../../images/issac_solemon.png";
+import majid from "../../images/majid_makeup.png";
+import jamal_gilani from "../../images/jamal_gilani.png";
+import nabeel_lutfi from "../../images/nabeel_lutfi.png";
+import tayyab_bombal from "../../images/tayyab_bombal.png";
+import abid_azeem from "../../images/abid_azeem.png";
+import amir_mughal from "../../images/amir_mughal.png";
 import media1 from "../../images/media1.jpg"
 import media2 from "../../images/media3.png"
 // -------------------
@@ -174,7 +190,7 @@ const Home = () => {
             name: 'TAQI AHMED'
         },
         {
-            img: dummy,
+            img: faraz,
             name: 'FARAZ MARRI'
         },
         {
@@ -182,11 +198,11 @@ const Home = () => {
             name: 'PAKIZA KHAN'
         },
         {
-            img: dummy,
+            img: anya,
             name: 'ANYA HASSAN'
         },
         {
-            img: dummy,
+            img: areej,
             name: 'AREEJ CHAUDHRY'
         },
         {
@@ -194,11 +210,11 @@ const Home = () => {
             name: 'ASIM SHAH'
         },
         {
-            img: dummy,
+            img: mehboobSultan,
             name: 'MEHBOOB SULTAN'
         },
         {
-            img: dummy,
+            img: irfanMotiwala,
             name: 'IRFAN MOTI WALA'
         },
 
@@ -322,7 +338,7 @@ const Home = () => {
                             <p>MIRZA OWAIS BAIG</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={saqib} alt="producer" />
                             <p>ASSOCIATE DIRECTOR</p>
                             <p>SAQIB ZAFAR SIDDIQUI</p>
                         </div>
@@ -332,52 +348,52 @@ const Home = () => {
                             <p>FAJJAR MINHAS</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={imran_lee} alt="producer" />
                             <p>D.O.P</p>
                             <p>IMRAN LEE</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={tayyab_bombal} alt="producer" />
                             <p>COSTUME DESIGNER</p>
                             <p>TAYYAB BOMBAL</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={kashif} alt="producer" />
                             <p>COSTUME DESIGNER</p>
                             <p>KASHIF KHAN</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={saqib_zafer} alt="producer" />
                             <p>ASSOCIATE DIRECTOR</p>
                             <p>SAQIB ZAFAR SIDDIQUI</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={issac} alt="producer" />
                             <p>EDIT</p>
                             <p>ISSAC SOLEMON</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={majid} alt="producer" />
                             <p>MARKUP ARTIST</p>
                             <p>MAJID HUSSAIN</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={jamal_gilani} alt="producer" />
                             <p>ART DIRECTOR</p>
                             <p>JAMAL GILANI</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={nabeel_lutfi} alt="producer" />
                             <p>MUSIC</p>
                             <p>NABEEL UR REHMAN LUTFI</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={abid_azeem} alt="producer" />
                             <p>PRODUCTION HEAD</p>
                             <p>ABID AZEEM</p>
                         </div>
                         <div className='cast_div'>
-                            <img src={dummy} alt="producer" />
+                            <img src={amir_mughal} alt="producer" />
                             <p>PRODUCTION HEAD</p>
                             <p>AMIR MUGHAL</p>
                         </div>
